@@ -10,8 +10,6 @@ let package = Package(
         .library(
             name: "LeeUIComponents",
             targets: ["LeeUIComponents"]),
-        .executable(name: "ExampleApp",
-                    targets: ["ExampleApp"])
     ],
     dependencies: [
         .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.4.0"),
@@ -23,10 +21,6 @@ let package = Package(
             name: "LeeUIComponents", dependencies: [
                 "Alamofire"
             ]),
-        .target(
-            name: "ExampleApp",
-            dependencies: ["LeeUIComponents"],
-            path: "Examples/ExampleApp"),
         .testTarget(
             name: "LeeUIComponentsTests",
             dependencies: ["LeeUIComponents"]),
