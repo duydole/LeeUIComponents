@@ -1,0 +1,24 @@
+{
+  "originHash" : "4699c1d0a1469591aed73df82cf63322a0511ff8ad01d49e6030527bfe50bc23",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
+      }
+    },
+    {
+      "identity" : "leeuicomponents",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/duydole/LeeUIComponents.git",
+      "state" : {
+        "revision" : "9cb0a05e29b20627bd59dbbd5c0a3e7392bf9578",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}

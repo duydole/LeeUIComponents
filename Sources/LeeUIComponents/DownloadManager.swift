@@ -8,7 +8,7 @@
 import Foundation
 import Alamofire
 
-class DownloadManager {
+public class DownloadManager {
     
     func download(url: String) -> Bool {
         return true
